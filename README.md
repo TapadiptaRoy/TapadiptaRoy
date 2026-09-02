@@ -5,12 +5,17 @@ Full-stack developer building end-to-end applications with React.js, Next.js, No
 I like owning features end-to-end — from database schema and REST API design through to UI and deployment — and I'm especially drawn to building things where AI genuinely improves the product, not just bolted on as a gimmick.
 
 🔭 Currently building projects combining full-stack engineering with LLM integration (RAG, structured output, prompt engineering)
-🌱 Currently learning core ML fundamentals (numpy, pandas, scikit-learn) to deepen my AI/ML foundation
+🌱 Currently deepening core ML fundamentals (numpy, pandas, scikit-learn) to strengthen the foundation behind my AI/ML work
 📫 Reach me: roytapadipta19@gmail.com | [LinkedIn](https://www.linkedin.com/in/tapadiptaroy)
 
 ---
 
 ## 🚀 Featured Projects
+
+### [Stacks — Personal Knowledge Base (RAG)](https://github.com/TapadiptaRoy/chatbot_rag)
+A retrieval-augmented generation app — upload your own documents (PDF, DOCX, TXT, MD) and ask questions grounded in what you've actually uploaded. Chunks and embeds documents via Voyage AI, stores vectors in Chroma Cloud, and generates cited, context-grounded answers using the Claude API.
+**Stack:** Python, Flask, Voyage AI embeddings, Chroma Cloud, Claude API (Anthropic)
+🔗 [Live Demo](https://stacks-chatbot-rag.onrender.com)
 
 ### [AI Resume Analyzer / ATS Checker](https://github.com/TapadiptaRoy/cv-analyser)
 Full-stack ATS resume checker that parses PDF/DOCX resumes and extracts structured data across 175+ skills/12 categories. Integrates the Claude API to generate structured JSON feedback — resume summaries, section-by-section suggestions, and AI-powered bullet-point rewrites.
@@ -34,7 +39,7 @@ Backend service generating short URLs with O(1) redirect lookups via indexed Mon
 **Frontend:** React.js, Next.js, HTML, CSS, Tailwind CSS
 **Backend:** Node.js, Express.js, Flask, REST APIs, Socket.io, BullMQ, JWT Authentication
 **Databases & Infra:** PostgreSQL, MongoDB, Redis, Prisma ORM, Cloudinary, Cloudflare, Railway, Vercel, Render
-**AI/ML:** Claude API (Anthropic), LLM Integration, Prompt Engineering, Structured Output Generation
+**AI/ML:** Claude API (Anthropic), RAG (Retrieval-Augmented Generation), Vector Databases (Chroma), Voyage AI Embeddings, LLM Integration, Prompt Engineering, Structured Output Generation
 **Tools:** Git, GitHub, VS Code, Postman, CI/CD
 
 ---
