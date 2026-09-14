@@ -27,9 +27,7 @@ Full-stack job application tracker with JWT-based auth, a smart analytics engine
 **Stack:** Next.js, Express, PostgreSQL, Prisma ORM
 🔗 [Live Demo](https://job-tracker-3nb5.vercel.app)
 
-### [URL Shortener](https://github.com/TapadiptaRoy/url_shortner)
-Backend service generating short URLs with O(1) redirect lookups via indexed MongoDB queries, exposing RESTful APIs for shortening and redirection.
-**Stack:** React, Node.js, Express, MongoDB
+
 
 ---
 
