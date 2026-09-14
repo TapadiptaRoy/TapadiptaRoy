@@ -11,6 +11,19 @@ I like owning features end-to-end — from database schema and REST API design t
 ---
 
 ## 🚀 Featured Projects
+### 🔍[ Multi-Source Research Assistant](https://github.com/TapadiptaRoy/research-assistant)
+An AI research assistant that routes questions across arXiv, PubMed, OpenAlex, and live web search, then synthesizes the results into one coherent, cited answer — orchestrated as a stateful graph with automatic retry logic when results come back thin.
+
+**Stack:** Python · LangChain · LangGraph · Claude (Anthropic) · FastAPI
+
+- Routes each question to only the relevant sources via an LLM-based classifier, instead of always querying everything
+- Every claim in the final answer is traceable back to its source (arXiv / PubMed / OpenAlex / web)
+- Self-corrects: if initial results are too thin, the graph automatically broadens the search and retries — capped to guarantee termination
+- Maintains conversation memory across follow-up questions
+- Deployed live on Render
+
+🔗 [Live Demo](https://research-assistant-wbdc.onrender.com/) 
+
 
 ### [Stacks — Personal Knowledge Base (RAG)](https://github.com/TapadiptaRoy/chatbot_rag)
 A retrieval-augmented generation app — upload your own documents (PDF, DOCX, TXT, MD) and ask questions grounded in what you've actually uploaded. Chunks and embeds documents via Voyage AI, stores vectors in Chroma Cloud, and generates cited, context-grounded answers using the Claude API.
